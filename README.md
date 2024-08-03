@@ -1,1 +1,1 @@
-# javascript_basic_course
+# javascript_basic_course ภาษาไทย
