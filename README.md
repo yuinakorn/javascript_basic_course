@@ -10,3 +10,4 @@
 4. การใช้งาน Array
 5. การใช้งาน Function
 6. การใช้งาน Object และ JSON
+7. การทำงานแบบ Asynchronous 
