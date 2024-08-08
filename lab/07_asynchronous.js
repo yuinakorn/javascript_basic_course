@@ -77,7 +77,7 @@ async function getData() {
     }
 }
 
-getData();
-printHelloWait();
-printHello();
+getData();  // 1
+printHelloWait(); // 3
+printHello(); // 2
 

@@ -14,7 +14,7 @@ let isMarried = false;
 // 1.4 ตัวอย่างของ Array
 let fruits = ['Apple', 'Banana', 'Orange', 'Mango', 'Papaya'];
 
-// 1.5 ตัวอย่างของ Object
+// 1.5 ตัวอย่างของ Object ลักษณะคล้ายกับ JSON มี key และ value
 let person = {
     name: 'John',
     age: 30,
@@ -26,11 +26,13 @@ function test() {
     console.log('Hello World');
 }
 
-// 1.7 ตัวอย่างของ Undefined
+// 1.7 ตัวอย่างของ Undefined ค่าที่ยังไม่ได้กำหนดค่า
 let x;
+console.log(x); // undefined
 
 // 1.8 ตัวอย่างของ Null
 let y = null;
+console.log(y); // null
 
 // 1.9 ตัวอย่างของ Symbol
 let z = Symbol('mySymbol');

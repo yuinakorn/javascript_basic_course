@@ -24,11 +24,13 @@ console.log(message6);
 let message7 = `My name is ${myName} and I'm a web developer`;
 console.log(message7);
 
-// การเข้าถึงข้อมูลใน String
-console.log(myName[0]);
 
 // การหาขนาดของ String
 console.log(myName.length);
+
+
+// substring() การตัดข้อมูลใน String
+console.log(myName.substring(1, 3));
 
 // การตัดข้อมูลใน String
 console.log(myName.slice(1, 3));

@@ -1,4 +1,6 @@
 // การประกาศตัวแปรใน JavaScript
+// วิธีการใช้ var, let, และ const ใน JavaScript
+
 
 // ==========================Var==========================
 
@@ -15,12 +17,12 @@ age = 20;
 console.log(age); 
 
 
-function test() {
+function newAge() {
     let age = 30;
     console.log(age);
 }
 
-test(); 
+newAge(); 
 
 // ==========================Const==========================
 

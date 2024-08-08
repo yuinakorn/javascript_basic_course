@@ -129,6 +129,7 @@ console.log(fruits.map(fruit => fruit.toUpperCase()));
 
 // ใช้ map() เติมลำดับไปข้างหน้า Array เช่น '1. Apple', '2. Banana', '3. Orange', '4. Mango', '5. Papaya'
 console.log(fruits.map((fruit, index) => `${index + 1}. ${fruit}`));
+
 /* 
 1.	fruits.map((fruit, index) => ${index + 1}. ${fruit}):
 	•	ฟังก์ชัน .map() ใช้ในการสร้าง array ใหม่โดยการเปลี่ยนแปลงค่าทุกค่าใน array ที่เรียกใช้.
